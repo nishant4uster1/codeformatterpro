@@ -1,0 +1,32 @@
+# Netlify deployment configuration for CodeFormatter
+# Docs: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  # Ensure Node 20 (matches production Next.js requirement)
+  NODE_VERSION = "20"
+
+# The Next.js runtime plugin gives us SSR, image optimisation, and
+# proper handling of the app router. Netlify auto-installs this
+# when it detects a Next.js project, but declaring it here makes
+# builds deterministic.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Reasonable security headers for a public site
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+
+# Cache the downloadable ZIP for a day
+[[headers]]
+  for = "/codeformatter.zip"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
