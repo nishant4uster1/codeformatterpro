@@ -284,8 +284,8 @@ const App = () => {
           <span className="flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-amber-400" />
             Website built by
-            <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="font-semibold text-amber-300 hover:text-amber-200 underline underline-offset-2 inline-flex items-center gap-1">
-              NeoWebSolutions <ExternalLink className="w-3.5 h-3.5" />
+            <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="font-semibold text-amber-300 hover:text-amber-200 underline underline-offset-2 inline-flex items-center gap-1">
+              NorthByteLabs <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </span>
           <span className="opacity-80 hidden sm:inline">100% free · Runs entirely in your browser · No data leaves your device</span>
@@ -825,12 +825,12 @@ const App = () => {
             </ul>
           </div>
           <div>
-            <div className="text-white font-semibold mb-3">Built by NeoWebSolutions</div>
+            <div className="text-white font-semibold mb-3">Built by NorthByteLabs</div>
             <p className="text-slate-400">
-              This project is designed and maintained by NeoWebSolutions — a studio building fast, delightful web experiences.
+              This project is designed and maintained by NorthByteLabs — a studio building fast, delightful web experiences.
             </p>
-            <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-violet-500 text-white font-medium hover:opacity-90 transition">
-              Visit NeoWebSolutions <ExternalLink className="w-4 h-4" />
+            <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-blue-500 to-violet-500 text-white font-medium hover:opacity-90 transition">
+              Visit NorthByteLabs <ExternalLink className="w-4 h-4" />
             </a>
           </div>
         </div>
@@ -839,8 +839,8 @@ const App = () => {
             <span>© {new Date().getFullYear()} Code Formatter Pro. All rights reserved.</span>
             <span>
               Built with care by{' '}
-              <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 underline underline-offset-2">
-                NeoWebSolutions
+              <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="text-white hover:text-amber-300 underline underline-offset-2">
+                NorthByteLabs
               </a>
             </span>
           </div>
