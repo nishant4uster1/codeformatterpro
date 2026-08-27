@@ -77,15 +77,15 @@ export default function CookiesPage() {
         <H>4. Contact</H>
         <P>
           Any questions about cookies? Reach us at{' '}
-          <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">
-            neowebsolutions.netlify.app
+          <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">
+            northbytelabs.in
           </a>.
         </P>
       </main>
 
       <footer className="border-t border-slate-200 dark:border-slate-800 py-6 text-center text-sm text-slate-500 dark:text-slate-400">
         © {new Date().getFullYear()} Code Formatter Pro · Built by{' '}
-        <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">NeoWebSolutions</a>
+        <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">NorthByteLabs/</a>
       </footer>
     </div>
   )
