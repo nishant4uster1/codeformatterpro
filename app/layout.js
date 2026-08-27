@@ -23,9 +23,9 @@ export const metadata = {
     'sql formatter', 'base64 encoder', 'base64 decoder', 'url encoder', 'jwt decoder',
     'diff checker', 'json tree viewer', 'developer tools', 'code beautifier', 'online formatter',
   ],
-  authors: [{ name: 'NeoWebSolutions', url: 'https://neowebsolutions.netlify.app/' }],
-  creator: 'NeoWebSolutions',
-  publisher: 'NeoWebSolutions',
+  authors: [{ name: 'NorthByteLabs', url: 'https://northbytelabs.in/' }],
+  creator: 'NorthByteLabs',
+  publisher: 'NorthByteLabs',
   applicationName: 'Code Formatter Pro',
   category: 'Developer Tools',
   robots: {
@@ -58,7 +58,7 @@ export const metadata = {
     title: 'Code Formatter Pro — Free Online JSON, XML, YAML, CSV, HTML, CSS, JS Formatter & Converter',
     description:
       '40+ free developer tools to format, minify, validate and convert data & code. Runs entirely in your browser.',
-    creator: '@neowebsolutions',
+    creator: '@NorthByteLabs',
   },
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml' }],
@@ -97,8 +97,8 @@ const jsonLd = {
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
       publisher: {
         '@type': 'Organization',
-        name: 'NeoWebSolutions',
-        url: 'https://neowebsolutions.netlify.app/',
+        name: 'NorthByteLabs',
+        url: 'https://northbytelabs.in/',
       },
       featureList: [
         'JSON Formatter and Validator',
@@ -120,8 +120,8 @@ const jsonLd = {
     {
       '@type': 'Organization',
       '@id': `${SITE_URL}/#organization`,
-      name: 'NeoWebSolutions',
-      url: 'https://neowebsolutions.netlify.app/',
+      name: 'NorthByteLabs',
+      url: 'https://northbytelabs.in/',
       logo: `${SITE_URL}/favicon.svg`,
     },
     {
