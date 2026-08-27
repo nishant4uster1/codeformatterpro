@@ -70,7 +70,7 @@ export default function BlogIndex() {
 
       <footer className="border-t border-slate-200 dark:border-slate-800 py-8 text-center text-sm text-slate-500 dark:text-slate-400">
         © {new Date().getFullYear()} Code Formatter Pro · Built by{' '}
-        <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">NeoWebSolutions</a>
+        <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline underline-offset-2">NorthByteLabs</a>
       </footer>
     </div>
   )
