@@ -34,7 +34,7 @@ export default function PrivacyPage() {
         <h1 className="text-4xl font-extrabold text-slate-900 dark:text-white">Privacy Policy</h1>
         <P>
           This Privacy Policy explains how <strong>Code Formatter Pro</strong> (the “Service”, “we”, “us”, or “our”),
-          operated by <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">NeoWebSolutions</a>,
+          operated by <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">NorthByteLabs</a>,
           handles information when you use our website. We are committed to keeping your data safe and being transparent
           about what we do (and don’t do) with it.
         </P>
@@ -111,8 +111,8 @@ export default function PrivacyPage() {
         </ul>
         <P>
           If you have specific privacy questions, contact us via{' '}
-          <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">
-            NeoWebSolutions
+          <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">
+            NorthByteLabs
           </a>.
         </P>
 
@@ -128,15 +128,15 @@ export default function PrivacyPage() {
         <H id="contact">10. Contact</H>
         <P>
           Questions? Reach the team behind Code Formatter Pro at{' '}
-          <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">
-            neowebsolutions.netlify.app
+          <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">
+            NorthByteLabs
           </a>.
         </P>
       </main>
 
       <footer className="border-t border-slate-200 dark:border-slate-800 py-6 text-center text-sm text-slate-500 dark:text-slate-400">
         © {new Date().getFullYear()} Code Formatter Pro · Built by{' '}
-        <a href="https://neowebsolutions.netlify.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">NeoWebSolutions</a>
+        <a href="https://northbytelabs.in/" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 underline">NorthByteLabs</a>
       </footer>
     </div>
   )
