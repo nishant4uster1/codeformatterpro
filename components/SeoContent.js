@@ -101,7 +101,7 @@ const SeoContent = () => {
         <div className="max-w-7xl mx-auto px-4 py-16">
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-sm">
-              <Sparkles className="w-4 h-4 text-amber-500" /> 37+ specialised developer tools
+              <Sparkles className="w-4 h-4 text-amber-500" /> 40+ specialised developer tools
             </div>
             <h2 className="mt-4 text-3xl md:text-4xl font-bold text-slate-900 dark:text-white">
               One home for every code and data format you use
