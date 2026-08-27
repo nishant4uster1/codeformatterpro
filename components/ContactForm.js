@@ -6,7 +6,7 @@ import { MessageCircle, Mail, Send, ChevronDown } from 'lucide-react'
 // WhatsApp destination for the contact form (E.164 without the leading + or spaces).
 const WHATSAPP_NUMBER = '919643876061'
 // Email destination for the "Send via Email" flow.
-const CONTACT_EMAIL = 'contact.neowebsolutions@gmail.com'
+const CONTACT_EMAIL = 'hello@northbytelabs.in'
 const CATEGORIES = ['Suggestion', 'Complaint', 'Others']
 
 export default function ContactForm() {
