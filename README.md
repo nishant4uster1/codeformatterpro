@@ -2,7 +2,7 @@
 
 A free, all-in-one online toolkit to **format, minify, validate and convert** every popular data & code format — JSON, XML, YAML, CSV, HTML, CSS, JavaScript, SQL, Base64, JWT and more. Everything runs privately in your browser.
 
-Built by [NeoWebSolutions](https://neowebsolutions.netlify.app/).
+Built by [NorthByteLabs](https://northbytelab.com/).
 
 ## ✨ Features
 
@@ -149,4 +149,4 @@ MIT.
 
 ---
 
-Website built with ❤ by [NeoWebSolutions](https://neowebsolutions.netlify.app/).
+Website built with ❤ by [NorthByteLabs](https://northbytelab.com/).
